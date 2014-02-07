@@ -149,7 +149,15 @@ h2 {
 /*End of positiong and elements */
 
 /*Main section*/
-
+#box {
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  background-color: #025488;
+  color: white;
+  font-size: 20px;
+  font-family: Lucida Grande;
+}
 
 
 
