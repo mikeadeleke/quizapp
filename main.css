@@ -160,7 +160,9 @@ h2 {
   font-family: Lucida Grande;
 }
 
-
+.hidden {
+    background-color: #FFF5EE;
+}
 
 
 
