@@ -73,13 +73,10 @@ function MikeAdeleke() {
   var quizQuestions = [q1, q2, q3, q4, q5, q6, q7, q8, q9, q10];
     
 
-  this.getQuizQuestion = function() {
-		return quiz.question;
+  this.getQuizQuestions = function() {
+		return quizQuestions;
 	};
 	
-	this.getQuizAnswers = function() {
-		return quiz.answers;
-	};
 
 
 };
@@ -88,16 +85,19 @@ function MikeAdeleke() {
 $(document).ready(function() {
     var game = new MikeAdeleke(); 
     var hidden = $(".hidden");
-    hidden.hide(); 
-    
+		hidden.hide(); 
+    game.getQuizQuestions;
+		console.dir(game);
+	
 //		add first question to the screen
-		$("#button").on("click", function(e) {
-        e.preventDefault;
-        hidden.html("<h2>q1.getQuizQuesion</h2>");
-        hidden.html("<li>q1.getQuizAnswers</li>");
+		$("#button").on("click", function(event) {
+        event.preventDefault();
+        hidden.html("<h2>" + game.getQuizQuestions[0] + "</h2>");
+				hidden.html("<li>" +  + "</li>");
+				console.dir(this);
 //		insert the question counter
 //		insert corrent answer counter
-//			insert next or previous
+//		insert next or previous
       });
 	
 
