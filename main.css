@@ -150,19 +150,17 @@ h2 {
 
 /*Main section*/
 
-#box {
+.hidden {
   width: 500px;
   height: 500px;
-  margin: auto;
+  margin: 10px auto;
   background-color: #025488;
   color: white;
   font-size: 20px;
   font-family: Lucida Grande;
 }
 
-.hidden {
-    background-color: #FFF5EE;
-}
+
 
 
 
