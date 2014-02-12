@@ -87,14 +87,14 @@ h2 {
   font-size: 30px;
   font-family: Lucida Grande;
   color: #025488;
-  padding: 20px;
+  padding: 10px;
 }
 
 .opening img {
   height: 200px;
   width: 200px;
   border-radius: 50%;
-  padding: 20px;
+  padding: 10px;
 }
 
 #pull-left img {
@@ -115,7 +115,8 @@ h2 {
   font-size: 13px;
   font-family: Lucida Grande;
   position: relative;
-  top: -15px;
+  top: -30px;
+	vertical-align: center;
 }
 
 #pull-right a {
@@ -127,8 +128,8 @@ h2 {
   width: 40px;
   border-radius: 50%;
   position: relative;
-  top: 15px;
-  padding-left: 5px;
+  top: 25px;
+	margin-left: -5px;
 }
 
 #pull-right {
@@ -141,10 +142,12 @@ h2 {
    bottom:0px;
    height:30px;
    width:100%;
-   padding: 20px 0 25px 0;
    background-color: #FAF0E6;
    border: 1px solid lightgrey;
+	 padding-bottom: 30px;
+	padding-top: 10px;
  }
+
 
 /*End of positiong and elements */
 
@@ -158,33 +161,61 @@ h2 {
   color: white;
   font-size: 20px;
   font-family: Lucida Grande;
+	padding-bottom: 50px;
 }
 
 .game h1 {
 	font-size: 30px;
 	font-family: Lucida Grande;
-	padding: 5px;
+	padding: 5px 5px 20px 5px;
 }
 
-.game li {
-	list-style-type: none;
+.status p {
+	display: inline-block;
 }
-		
 
-#next, #previous {
-	height: 40px;
-	width: 80px;
-	color: #025488;
-	font-size: 16px;
-	font-family: Lucida Grande;
-	border-radius: 10px;
+#question, #score, #restart {
+	display: inline-block;
+	margin-right: 45px;
+	margin-top: 10px;
+}
+
+#next {
 	background-color: white;
-	margin: 10px 80px;
+	color: #025488;
+	font-size: 28px;
+	margin: 10px 0;
 }
 
+#restart {
+	display: inline-block;
+	width: 60px;
+	height: 30px;
+	position: relative;
+	border-radius: 10px;
+	font-size: 18px;
+	font-family: Lucida Grande;
+	cursor: pointer;
+	background-color: white;
+	color: #025488;
+	padding: 7px 10px 0 10px;
+}
 
+#answers li {
+	list-style-type: none;
+	padding: 20px;
+	text-decoration: none;
+	display: inline-block;
+}
 
+#heading {
+	padding: 10px;
+	font-size: 24px;
+}
 
+#correct-answer p {
+	line-height: 1.5 em;
+}
 
 /*End of main section*/
 
