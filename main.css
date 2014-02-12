@@ -141,7 +141,7 @@ h2 {
    bottom:0px;
    height:30px;
    width:100%;
-   padding: 20px;
+   padding: 10px 0 25px 0;
    background-color: #FAF0E6;
    border: 1px solid lightgrey;
  }
@@ -150,7 +150,7 @@ h2 {
 
 /*Main section*/
 
-.hidden {
+.game {
   width: 500px;
   height: 500px;
   margin: 10px auto;
@@ -160,6 +160,16 @@ h2 {
   font-family: Lucida Grande;
 }
 
+#next, #previous {
+	height: 40px;
+	width: 80px;
+	color: #025488;
+	font-size: 16px;
+	font-family: Lucida Grande;
+	border-radius: 10px;
+	background-color: white;
+	margin: 10px 80px;
+}
 
 
 
