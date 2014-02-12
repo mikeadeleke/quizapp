@@ -73,8 +73,8 @@ questions[9] = {
 
 
 $(document).ready(function() {
-
-	
+	$(".game").html("<h2>" + questions[0].question + "</h2>");
+	$(".game").html("<li>" + questions[0].answers + "</li>");
 //		add first question to the screen
 		
 
