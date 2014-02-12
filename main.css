@@ -160,6 +160,17 @@ h2 {
   font-family: Lucida Grande;
 }
 
+.game h1 {
+	font-size: 30px;
+	font-family: Lucida Grande;
+	padding: 5px;
+}
+
+.game li {
+	list-style-type: none;
+}
+		
+
 #next, #previous {
 	height: 40px;
 	width: 80px;

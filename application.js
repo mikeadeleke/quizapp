@@ -8,7 +8,7 @@ questions[0] = {
 };
 
 questions[1] = {
-	question: "What is Mike's favorite programming language?",
+	question: "What is Mikes favorite programming language?",
 	answers: ["Javascript", "Python", "Ruby", "PHP"],
 	correctAnswer: 2,
 	userAnswer: 0
@@ -73,10 +73,11 @@ questions[9] = {
 
 
 $(document).ready(function() {
-	$(".game").html("<h2>" + questions[0].question + "</h2>");
-	$(".game").html("<li>" + questions[0].answers + "</li>");
+	$(".game").html(["<h1>" + questions[0].question + "</h1>", "<li>" + questions[0].answers[0] + "</li>", "<li>" + questions[0].answers[1] + "</li>", "<li>" + questions[0].answers[2] + "</li>", "<li>" + questions[0].answers[3] + "</li>"]);
+//	$(".game").html();
 //		add first question to the screen
-		
+
+	
 
 //		insert the question counter
 //		insert corrent answer counter
